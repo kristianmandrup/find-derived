@@ -1,0 +1,33 @@
+{
+  "name": "find-derived",
+  "version": "0.1.0",
+  "description": "Iterate list and return the first derived value that is truthy",
+  "main": "dist/src",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "find",
+    "derived",
+    "array"
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "author": "Kristian Mandrup <kmandrup@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^22.1.4",
+    "jest": "^22.4.2",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  }
+}
