@@ -1,5 +1,7 @@
 # Find derived
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/find-derived.svg)](https://greenkeeper.io/)
+
 Like `Array.prototype.find` but returns the result of the first derived values (ie. function call on an item in the list) that is truthy.
 
 ## Usage
