@@ -11,6 +11,10 @@
     "derived",
     "array"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/find-derived.git"
+  },
   "jest": {
     "moduleFileExtensions": [
       "ts",
